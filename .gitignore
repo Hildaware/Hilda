@@ -1,0 +1,6 @@
+.DS_Store
+
+.idea
+docs/.idea
+docs/.svelte-kit
+docs/node_modules

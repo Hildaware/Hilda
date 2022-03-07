@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    @apply bg-gray-100;
+}
+
+h1 {
+    @apply text-5xl;
+}
+
+h2 {
+    @apply text-4xl;
+}
+
+h3 {
+    @apply text-3xl;
+}
+
+h4 {
+    @apply text-2xl;
+}
+
+a {
+    @apply text-blue-400;
+}
+
+.basic-list > li {
+    @apply pb-2;
+}
