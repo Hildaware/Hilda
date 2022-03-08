@@ -25,6 +25,7 @@ h3 {
 
 h4 {
     @apply text-2xl;
+    @apply py-4;
 }
 
 a {
@@ -33,4 +34,10 @@ a {
 
 .basic-list > li {
     @apply pb-2;
+}
+
+.inner-list {
+    @apply ml-6;
+    @apply text-sm;
+    @apply list-disc;
 }

@@ -1,6 +1,6 @@
 <div class="bg-gray-100">
     <div class="flex w-full">
-        <div class="w-2/3">
+        <div class="w-2/3 px-4">
             <h2 class="pb-4">
                 Main Window Overview
             </h2>
@@ -10,9 +10,9 @@
                 </li>
                 <li>
                     <strong>2.</strong> App Actions (in order)
-                    <ul class="ml-6">
+                    <ul class="inner-list">
                         <li>
-                            Global Configuration - Opens the Global <a href="">Configuration Settings Window</a>
+                            Global Configuration - Opens the Global <a href="/gui-overview/configuration">Configuration Settings Window</a>
                         </li>
                         <li>
                             Debug Window - Opens the <a href="">Debug Window</a>
@@ -30,7 +30,7 @@
                 </li>
                 <li>
                     <strong>3.</strong> Job Selector - Selecting a job shows the Priority Sets for that job.
-                    <ul class="ml-6">
+                    <ul class="inner-list">
                         <li>
                             White Border - Currently selected Job
                         </li>
@@ -41,9 +41,9 @@
                 </li>
                 <li>
                     <strong>4.</strong> Priority Sets Actions (in order)
-                    <ul class="ml-6">
+                    <ul class="inner-list">
                         <li>
-                            Job Configuration - Opens the <i>Job</i> <a href="">Configuration Settings Window</a>
+                            Job Configuration - Opens the <i>Job</i> <a href="/gui-overview/configuration">Configuration Settings Window</a>
                         </li>
                         <li>
                             New Priority Set - Create a new Priority Set for the currently selected Job
@@ -58,7 +58,7 @@
                     <ul class="ml-6 basic-list">
                         <li>
                             <strong>6.</strong> Views/Edits a Priority Set
-                            <ul class="ml-6">
+                            <ul class="inner-list">
                                 <li>
                                     Default sets (denoted by a blue lock symbol) cannot be edited
                                 </li>
@@ -66,9 +66,9 @@
                         </li>
                         <li>
                             <strong>7.</strong> Set Actions (in order)
-                            <ul class="ml-6">
+                            <ul class="inner-list">
                                 <li>
-                                    Set Configuration - Opens the <i>Set</i> <a href="">Configuration Settings Window</a>
+                                    Set Configuration - Opens the <i>Set</i> <a href="/gui-overview/configuration">Configuration Settings Window</a>
                                 </li>
                                 <li>
                                     Duplicate Set - Duplicates the set
@@ -83,13 +83,13 @@
                         </li>
                         <li>
                             <strong>9.</strong> Set Icons (in order)
-                            <ul class="ml-6">
+                            <ul class="inner-list">
                                 <li>
                                     <p>Information - Displays the <a href="/overview/set-overview#version">Version</a>, <a href="">App Version</a>, and date at which it was last updated</p>
                                     <p>This icon turns red if a priority set is out of date. The set will still load, but may not work as expected</p>
                                 </li>
                                 <li>
-                                    Default Set - These sets come pre-loaded with Hilda. They cannot be modified other than the <a href="">Configuration</a>
+                                    Default Set - These sets come pre-loaded with Hilda. They cannot be modified other than the <a href="/gui-overview/configuration">Configuration</a>
                                 </li>
                                 <li>
                                     Disabled - This set is currently disabled. It will not show up or run in the background

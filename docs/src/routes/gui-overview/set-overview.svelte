@@ -1,15 +1,15 @@
 <div class="bg-gray-100">
     <div class="flex w-full">
-        <div class="w-2/3">
+        <div class="w-2/3 px-4">
             <h2 class="pb-4">
                 Set Overview
             </h2>
             <ul class="basic-list">
                 <li>
                     <strong>1.</strong> Set Actions (in order)
-                    <ul class="ml-6">
+                    <ul class="inner-list">
                         <li>
-                            Set Configuration - Opens the Set <a href="">Configuration Settings Window</a>
+                            Set Configuration - Opens the Set <a href="/breakdown/configuration">Configuration Settings Window</a>
                         </li>
                         <li>
                             Edit - Allows for setting a name, <a href="#version">version</a>, description, and author for the set
@@ -36,7 +36,7 @@
                 </li>
                 <li>
                     <strong>4.</strong> Priority Actions (in order)
-                    <ul class="ml-6">
+                    <ul class="inner-list">
                         <li>
                             Edit - Allows for editing of the priorities' properties
                             <strong>** Non-Default Priority Sets Only</strong>
@@ -53,7 +53,7 @@
                     </ul>
                 </li>
                 <li>
-                    <strong>5.</strong> Properties - Controls when a Priority should be used based on <a href="">Conditions</a>
+                    <strong>5.</strong> Properties - Controls when a Priority should be used based on <a href="/breakdown/conditions">Conditions</a>
                 </li>
                 <li>
                     <strong>6.</strong> Move Up / Down - Moves a priority up/down in the list. The higher in the list, the higher the priority is. You can also drag the icon up/down

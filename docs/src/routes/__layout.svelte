@@ -16,24 +16,35 @@
 <div class="h-full w-64 fixed z-10 overflow-x-hidden bg-gray-200 p-4 pt-16">
 	<ul>
 		<li>
-			<a class="font-bold text-xl text-black" href="./getting-started">Getting Started</a>
+			<a class="font-bold text-xl text-black" href="/getting-started">Getting Started</a>
 		</li>
 		<li>
 			<a class="text-black font-bold" href="/gui-overview/">GUI Overview</a>
 			<ul class="ml-4">
 				<li>
-					<a class="text-black" href="/gui-overview/">Main Window</a>
+					<a class="text-black" href="/gui-overview/">+ Main Window</a>
 					<ul class="ml-4">
 						<li>
-							<a class="text-black" href="/gui-overview/set-overview">Priority Set</a>
+							<a class="text-black" href="/gui-overview/set-overview">- Priority Set</a>
 						</li>
 						<li>
-							<a class="text-black" href="/gui-overview/priority-overview">Priority</a>
+							<a class="text-black" href="/gui-overview/priority-overview">- Priority</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a class="text-black" href="/gui-overview/configuration">Configuration</a>
+					<a class="text-black" href="/gui-overview/configuration">+ Configuration</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a class="text-black font-bold" href="/breakdown/">Features Breakdowns</a>
+			<ul class="ml-4">
+				<li>
+					<a class="text-black" href="/breakdown/conditions">+ Conditions</a>
+				</li>
+				<li>
+					<a class="text-black" href="/breakdown/configuration-hierarchy">+ Configuration Hierarchy</a>
 				</li>
 			</ul>
 		</li>
@@ -46,7 +57,7 @@
 	</div>
 </div>
 
-<div class="body-container absolute left-80 top-12 p-4 overflow-x-hidden">
+<div class="body-container absolute left-64 top-12 p-4 overflow-x-hidden">
 	<slot />
 </div>
 
