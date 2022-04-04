@@ -41,3 +41,7 @@ a {
     @apply text-sm;
     @apply list-disc;
 }
+
+.inner-list small {
+    @apply ml-4;
+}

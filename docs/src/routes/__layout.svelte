@@ -19,6 +19,10 @@
 			<a class="font-bold text-xl text-black" href="/getting-started">Getting Started</a>
 		</li>
 		<li>
+			<a class="text-black font-bold" href="/quick-start-guide">Quick Start Guide</a>
+		</li>
+
+		<li>
 			<a class="text-black font-bold" href="/gui-overview/">GUI Overview</a>
 			<ul class="ml-4">
 				<li>

@@ -21,35 +21,35 @@
                 </div>
 
                 <h4>Settings "Fall" Down</h4>
-                <div class="ml-4">
+                <div class="section">
                     <p class="font-bold">Example:</p>
-                    <p>
+                    <small>
                         I want every Priority Set to show when I'm in a duty - even outside of combat. So within the global
                         configuration, I set the checkbox for "In Instance".
-                    </p>
+                    </small>
                     <p class="font-bold">Result:</p>
-                    <p>
+                    <small>
                         Now every single job & set configuration will hold that value, therefore each set will show while
                         I'm inside a duty.
-                    </p>
+                    </small>
                 </div>
 
                 <h4>Fine Tuning</h4>
-                <div class="ml-4">
+                <div class="section">
                     <p class="font-bold">Example:</p>
-                    <p>Continuing the previous example, let's say I don't want WHM sets to show while in a Duty. Within the WHM
-                        job configuration, I would disable the "In Instance" setting.</p>
+                    <small>Continuing the previous example, let's say I don't want WHM sets to show while in a Duty. Within the WHM
+                        job configuration, I would disable the "In Instance" setting.</small>
                     <p class="font-bold">Result:</p>
-                    <p>
+                    <small>
                         Now each WHM set will NOT show while in a Duty.
-                    </p>
-                    <p>But what if I wanted the Single Target set to show within a Duty only? No problem, just enter that set's
-                        configuration and set the checkbox for "In Instance"</p>
+                    </small>
+                    <small>But what if I wanted the Single Target set to show within a Duty only? No problem, just enter that set's
+                        configuration and set the checkbox for "In Instance"</small>
                     <p class="font-bold">Result:</p>
-                    <p>
+                    <small>
                         Now that set will be shown while in a Duty, and other WHM sets will still use the setting from the job's
                         configuration
-                    </p>
+                    </small>
                 </div>
             </div>
             <div class="w-1/2">
@@ -80,3 +80,13 @@
         </div>
     </div>
 </div>
+
+<style>
+    .section {
+        @apply ml-4;
+    }
+
+    .section small {
+        @apply ml-4;
+    }
+</style>

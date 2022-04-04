@@ -4,9 +4,9 @@
             <h2 class="pb-4">
                 Configuration Overview
             </h2>
-            <h4>
+            <h5 class="my-2 font-bold">
                 <a href="/breakdown/configuration-hierarchy">Understanding Hilda's Configuration Hierarchy</a>
-            </h4>
+            </h5>
             <ul class="basic-list">
                 <li>
                     <strong>1.</strong> Configuration Type - This can be 1 of 3 types (Global, Job, or Set)
