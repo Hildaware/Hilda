@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <div class="bg-gray-100">
     <div>
         <h2 class="pb-4">
@@ -9,7 +13,7 @@
             <div class="condition">
                 <h4>Combo Window</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <small>
                         Display this Priority when it's in/out of a combo possibly being executed
@@ -31,7 +35,7 @@
             <div class="condition">
                 <h4>Weave Window</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <small>
                         Display this Priority when it's in/out of the GCD Window
@@ -51,7 +55,7 @@
             <div class="condition">
                 <h4>Charges</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <small>
                         Display this Priority when it meets the criteria of the supplied charge count
@@ -71,7 +75,7 @@
             <div class="condition">
                 <h4>Depends on Action Recast</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <small>
                         Display this Priority when the criteria is met for the supplied Action & Recast Time
@@ -92,7 +96,7 @@
             <div class="condition">
                 <h4>Depends on Action Recast</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <small>
                         Display this Priority when the criteria is met for the supplied Action & Recast Time
@@ -113,7 +117,7 @@
             <div class="condition">
                 <h4>Enemy Count</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <small>
                         Display this Priority when the criteria is met for the supplied number of enemies in the Enemy List
@@ -129,7 +133,7 @@
             <div class="condition">
                 <h4>Player</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <ul class="inner-list">
                         <li>
@@ -172,7 +176,7 @@
             <div class="condition">
                 <h4>Target</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <ul class="inner-list">
                         <li>
@@ -203,7 +207,7 @@
             <div class="condition">
                 <h4>Job</h4>
                 <div>
-                    <img src="/media/screenshots/ph.png" />
+                    <img src="{base}/media/screenshots/ph.png" />
                     <p>What it Does</p>
                     <small>
                         Provides access to Job Gauge / Job Specific conditions

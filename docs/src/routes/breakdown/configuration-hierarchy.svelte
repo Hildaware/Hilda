@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <div class="bg-gray-100">
     <div>
         <h2 class="pb-4">

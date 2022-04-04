@@ -1,3 +1,8 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
+
 <div class="bg-gray-100">
     <div class="flex w-full">
         <div class="w-2/3 px-4">
@@ -9,7 +14,7 @@
                     <strong>1.</strong> Set Actions (in order)
                     <ul class="inner-list">
                         <li>
-                            Set Configuration - Opens the Set <a href="/breakdown/configuration">Configuration Settings Window</a>
+                            Set Configuration - Opens the Set <a href="{base}/breakdown/configuration">Configuration Settings Window</a>
                         </li>
                         <li>
                             Edit - Allows for setting a name, <a href="#version">version</a>, description, and author for the set
@@ -53,7 +58,7 @@
                     </ul>
                 </li>
                 <li>
-                    <strong>5.</strong> Properties - Controls when a Priority should be used based on <a href="/breakdown/conditions">Conditions</a>
+                    <strong>5.</strong> Properties - Controls when a Priority should be used based on <a href="{base}/breakdown/conditions">Conditions</a>
                 </li>
                 <li>
                     <strong>6.</strong> Move Up / Down - Moves a priority up/down in the list. The higher in the list, the higher the priority is. You can also drag the icon up/down
@@ -64,7 +69,7 @@
             </ul>
         </div>
         <div class="w-1/3">
-            <img src="/media/screenshots/set-overview-read-only.png" alt="hilda-config-overview"/>
+            <img src="{base}/media/screenshots/set-overview-read-only.png" alt="hilda-config-overview"/>
         </div>
     </div>
 </div>

@@ -1,3 +1,8 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
+
 <div class="bg-gray-100">
     <div class="flex w-full">
         <div class="w-2/3 px-4">
@@ -36,12 +41,12 @@
                     <strong>2.</strong> Properties - Allows you to set some <a href="">Properties</a> on the priority. This does not affect the priorities' calculations
                 </li>
                 <li>
-                    <strong>3.</strong> Conditions - Controls when a Priority should be used based on <a href="/breakdown/conditions">Conditions</a>
+                    <strong>3.</strong> Conditions - Controls when a Priority should be used based on <a href="{base}/breakdown/conditions">Conditions</a>
                 </li>
             </ul>
         </div>
         <div class="w-1/3">
-            <img src="/media/screenshots/priority-overview.png" alt="hilda-config-overview"/>
+            <img src="{base}/media/screenshots/priority-overview.png" alt="hilda-config-overview"/>
         </div>
     </div>
 </div>

@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <div class="bg-gray-100">
     <div class="flex w-full">
         <div class="w-2/3 px-4">
@@ -12,7 +16,7 @@
                     <strong>2.</strong> App Actions (in order)
                     <ul class="inner-list">
                         <li>
-                            Global Configuration - Opens the Global <a href="/gui-overview/configuration">Configuration Settings Window</a>
+                            Global Configuration - Opens the Global <a href="{base}/gui-overview/configuration">Configuration Settings Window</a>
                         </li>
                         <li>
                             Debug Window - Opens the <a href="">Debug Window</a>
@@ -43,7 +47,7 @@
                     <strong>4.</strong> Priority Sets Actions (in order)
                     <ul class="inner-list">
                         <li>
-                            Job Configuration - Opens the <i>Job</i> <a href="/gui-overview/configuration">Configuration Settings Window</a>
+                            Job Configuration - Opens the <i>Job</i> <a href="{base}/gui-overview/configuration">Configuration Settings Window</a>
                         </li>
                         <li>
                             New Priority Set - Create a new Priority Set for the currently selected Job
@@ -68,7 +72,7 @@
                             <strong>7.</strong> Set Actions (in order)
                             <ul class="inner-list">
                                 <li>
-                                    Set Configuration - Opens the <i>Set</i> <a href="/gui-overview/configuration">Configuration Settings Window</a>
+                                    Set Configuration - Opens the <i>Set</i> <a href="{base}/gui-overview/configuration">Configuration Settings Window</a>
                                 </li>
                                 <li>
                                     Duplicate Set - Duplicates the set
@@ -85,11 +89,11 @@
                             <strong>9.</strong> Set Icons (in order)
                             <ul class="inner-list">
                                 <li>
-                                    <p>Information - Displays the <a href="/overview/set-overview#version">Version</a>, <a href="">App Version</a>, and date at which it was last updated</p>
+                                    <p>Information - Displays the <a href="{base}/overview/set-overview#version">Version</a>, <a href="">App Version</a>, and date at which it was last updated</p>
                                     <p>This icon turns red if a priority set is out of date. The set will still load, but may not work as expected</p>
                                 </li>
                                 <li>
-                                    Default Set - These sets come pre-loaded with Hilda. They cannot be modified other than the <a href="/gui-overview/configuration">Configuration</a>
+                                    Default Set - These sets come pre-loaded with Hilda. They cannot be modified other than the <a href="{base}/gui-overview/configuration">Configuration</a>
                                 </li>
                                 <li>
                                     Disabled - This set is currently disabled. It will not show up or run in the background
@@ -104,7 +108,7 @@
             </ul>
         </div>
         <div class="w-1/3">
-            <img src="/media/screenshots/overview.png" alt="hilda-config-overview"/>
+            <img src="{base}/media/screenshots/overview.png" alt="hilda-config-overview"/>
         </div>
     </div>
 </div>

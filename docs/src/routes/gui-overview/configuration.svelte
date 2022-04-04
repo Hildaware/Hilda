@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <div class="bg-gray-100">
     <div class="flex w-full">
         <div class="w-2/3 px-4">
@@ -5,7 +9,7 @@
                 Configuration Overview
             </h2>
             <h5 class="my-2 font-bold">
-                <a href="/breakdown/configuration-hierarchy">Understanding Hilda's Configuration Hierarchy</a>
+                <a href="{base}/breakdown/configuration-hierarchy">Understanding Hilda's Configuration Hierarchy</a>
             </h5>
             <ul class="basic-list">
                 <li>
@@ -52,7 +56,7 @@
             </ul>
         </div>
         <div class="w-1/3">
-            <img src="/media/screenshots/config-overview.png" alt="hilda-config-overview"/>
+            <img src="{base}/media/screenshots/config-overview.png" alt="hilda-config-overview"/>
         </div>
     </div>
 </div>
