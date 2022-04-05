@@ -1,6 +1,6 @@
 # Hilda [![Discord Shield](https://discordapp.com/api/guilds/945412133104021544/widget.png?style=shield)](https://discord.gg/JzrMWYT7ay)
 
-![image](https://seljcql.github.io/Hilda/media/icon.png)
+<img style="display: block; margin: 0 auto" src="https://seljcql.github.io/Hilda/media/icon.png">
 
 ## Hilda is a plugin for [Dalamud](https://github.com/goatcorp/Dalamud) in conjunction with [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) with an aim to teach players how to play combat Jobs with very little prior knowledge.
 
