@@ -3,6 +3,11 @@
 	import { base } from '$app/paths';
 </script>
 
+<svelte:head>
+	<title>Hilda - Documentation</title>
+	<html lang="en" />
+</svelte:head>
+
 <div class="fixed h-12 w-full bg-gray-700 flex items-center z-20">
 	<a href="{base}/" class="h12 w-12">
 		<img src="{base}/media/icon.png" alt="hilda-logo" />

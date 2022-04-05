@@ -4,14 +4,15 @@ publish(
     'build',
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/bferrari352/Hilda.git',
+        repo: 'https://github.com/SelJCQL/Hilda.git',
         user: {
-            name: 'Brandon Ferrari',
-            email: 'ferrari.l.brandon@gmail.com'
+            name: 'Sel',
+            email: 'BrandonFerrari@tutanota.com'
         },
         dotfiles: true
     },
-    () => {
+    (e) => {
         console.log('Deploy Complete!');
+        console.log(e);
     }
 );
