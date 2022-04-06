@@ -1,6 +1,6 @@
 # Hilda [![Discord Shield](https://discordapp.com/api/guilds/945412133104021544/widget.png?style=shield)](https://discord.gg/JzrMWYT7ay)
 
-<img style="display: block; margin: 0 auto" src="https://seljcql.github.io/Hilda/media/icon.png">
+<img style="display: block; margin: 0 auto" src="https://hildaware.github.io/Hilda/media/icon.png">
 
 ## Hilda is a plugin for [Dalamud](https://github.com/goatcorp/Dalamud) in conjunction with [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) with an aim to teach players how to play combat Jobs with very little prior knowledge.
 
@@ -19,7 +19,7 @@ This means it's in the very early stages of being used by the community. Expect 
   - These _**Default Sets**_ are currently in testing and constantly changing based on feedback. They are originally made by developers with very little knowledge of the current level cap's mechanics for each and every job.
   - _**Default Sets**_ are provided via HTTPS to the plugin itself to provide constant updates to the sets without requiring an update to the plugin. They will get updated locally for each user upon the plugin loading or restarting.
 - 100% customizable
-  - _**Default Sets**_ provide something, but may not provide what you want. Hilda allows for easy creation of priority sets via its [GUI](https://seljcql.github.io/Hilda/gui-overview/).
+  - _**Default Sets**_ provide something, but may not provide what you want. Hilda allows for easy creation of priority sets via its [GUI](https://hildaware.github.io/Hilda/gui-overview/).
 
 ## What Hilda Is NOT
 ***
@@ -28,13 +28,20 @@ This means it's in the very early stages of being used by the community. Expect 
   - Unless you're jumping into a duty with no prior knowledge of how the job plays, then I would hope it would help.
 - Hilda is currently not open source due to concerns of abuse of the code. (Open source is being considered)
 
+## Setup (Alpha / Beta)
+***
+In Dalamud, add the following Repo under the Dalamud Settings -> Experimental -> Custom Plugin Repositories:
+
+`https://hildaware.github.io/xiv/`
+
+This will allow you to use Hilda.
 
 ## How to Contribute
 ***
 - Hilda was created and is being maintained by 2 people and took a large amount of hours to initially develop and maintain.
   - We are currently not open source, and helping with the development of the plugin itself is not possible.
 - _**Default Sets**_ are constantly in need of updating, adjusting, etc. and are fully modifiable by the community.
-  - [Create an Issue](https://github.com/SelJCQL/Hilda/issues) regarding a problem with a Default Set.
+  - [Create an Issue](https://github.com/hildaware/Hilda/issues) regarding a problem with a Default Set.
   - [Join our Discord](https://discord.gg/JzrMWYT7ay) to get community help or discussions.
   
 
