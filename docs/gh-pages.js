@@ -4,7 +4,7 @@ publish(
     'build',
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/SelJCQL/Hilda.git',
+        repo: 'https://github.com/hildaware/Hilda.git',
         user: {
             name: 'Sel',
             email: 'BrandonFerrari@tutanota.com'

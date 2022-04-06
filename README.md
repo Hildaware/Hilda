@@ -1,6 +1,6 @@
 # Hilda [![Discord Shield](https://discordapp.com/api/guilds/945412133104021544/widget.png?style=shield)](https://discord.gg/JzrMWYT7ay)
 
-<img style="display: block; margin: 0 auto" src="https://hildaware.github.io/Hilda/media/icon.png">
+<img style="display: block; margin: 0 auto" src="https://hildaware.github.io/Hilda/media/logo.png">
 
 ## Hilda is a plugin for [Dalamud](https://github.com/goatcorp/Dalamud) in conjunction with [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) with an aim to teach players how to play combat Jobs with very little prior knowledge.
 
@@ -13,7 +13,7 @@ This means it's in the very early stages of being used by the community. Expect 
 
 ## What Hilda Is
 ***
-- An action priority helper plugin which makes predictions accurately upwards of 20 steps ahead in the future. It builds upon a predictive system which emulates multiple combat [Conditions](https://seljcql.github.io/Hilda/breakdown/conditions/) to recommend the best possible actions to use in the player's current situation.
+- An action priority helper plugin which makes predictions accurately upwards of 20 steps ahead in the future. It builds upon a predictive system which emulates multiple combat [Conditions](https://hildaware.github.io/Hilda/breakdown/conditions/) to recommend the best possible actions to use in the player's current situation.
 - Displays action icons in a row as a suggestion of what action you should use in the current situation.
 - Provides built-in _**Default Sets**_ which aim to replicate the common flow of combat for that particular job.
   - These _**Default Sets**_ are currently in testing and constantly changing based on feedback. They are originally made by developers with very little knowledge of the current level cap's mechanics for each and every job.
