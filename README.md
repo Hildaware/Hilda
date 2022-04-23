@@ -57,6 +57,5 @@ This will allow you to use Hilda.
 - Translations to other languages.
   - Hilda has quite a few English only explanations in its configuration. We'll probably need to rely on the community for help on this.
 - Support for Disciple of the Hands? (...maybe)
-- Support for PvP actions
 - Support for Items
 - ... and many more!
