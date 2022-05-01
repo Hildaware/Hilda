@@ -3,7 +3,7 @@ name: Default Set Bug Report
 about: Create a bug report specific to an issue with a default priority set.
 title: "[Default Set Bug]"
 labels: default set bug
-assignees: hildaware
+assignees: Hildaware
 
 ---
 
